@@ -1,5 +1,11 @@
 # Job developer interviews are obsolete
 
+## What is this?
+
+The artificial neural network created 10 questions for python job interviews. The same artificial neural network provided answers to these questions.
+
+## Questions
+
 Hi GPT. Please make 10 questions for python developer job interview.
 
 Response:
