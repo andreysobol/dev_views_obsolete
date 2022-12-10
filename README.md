@@ -27,7 +27,7 @@ Another difference between the two is that a list is represented by square brack
 
 Here is an example of a list and a tuple in Python:
 
-```
+```python
 # A list of strings
 my_list = ["apple", "banana", "cherry"]
 
@@ -47,7 +47,7 @@ A deep copy creates a new object that contains new copies of the objects in the 
 
 Here is an example that illustrates the difference between shallow and deep copying in Python:
 
-```
+```python
 # Import the copy module
 import copy
 
@@ -85,7 +85,7 @@ To implement inheritance in Python, you use the `class` keyword to define a new 
 
 Here is an example of how to implement inheritance in Python:
 
-```
+```python
 # Define the base class
 class BaseClass:
     def __init__(self, name):
@@ -140,7 +140,7 @@ Together, data binding and data encapsulation provide a powerful mechanism for m
 
 Here is an example of data binding and data encapsulation in Python:
 
-```
+```python
 # Define a class that represents a person
 class Person:
     # Initialize the class with the name and age attributes
@@ -176,7 +176,7 @@ In Python, the `try` and `except` keywords are used to handle exceptions, which 
 
 Here is an example of how to use the try and except keywords in Python:
 
-```
+```python
 # Define a function that divides two numbers
 def divide(num1, num2):
     try:
@@ -217,7 +217,7 @@ In Python, exceptions are runtime errors that can occur during the execution of 
 
 Here is an example of how to handle exceptions in Python:
 
-```
+```python
 # Define a function that divides two numbers
 def divide(num1, num2):
     try:
@@ -262,7 +262,7 @@ Instead, Python uses a mechanism called function overloading based on argument t
 
 Here is an example of function overloading based on argument type checking in Python:
 
-```
+```python
 # Define a function that takes a single argument
 def greet(name):
     if isinstance(name, str):
@@ -294,7 +294,7 @@ To create a decorator in Python, you define a function that takes a function as 
 
 Here is an example of how to create and use a decorator in Python:
 
-```
+```python
 # Define a decorator function that logs the arguments and return value of the original function
 def log_function(func):
     def wrapper(*args, **kwargs):
@@ -339,7 +339,7 @@ In Python, there are several ways to debug your code, depending on the specific 
 
 Here is an example of how to use the `print` statement to debug your code in Python:
 
-```
+```python
 # Define a function that divides two numbers
 def divide(num1, num2):
     # Print the intermediate state of the function
@@ -371,7 +371,7 @@ The main difference between a local and a global variable is their scope, which 
 
 Here is an example of the difference between a local and a global variable in Python:
 
-```
+```python
 # Define a global variable
 x = 10
 
